@@ -1,11 +1,11 @@
 <?php
+/* Update user's name, operated, time and ip to database
+I triped in requiring database's setting. Finally I solved
+this problem and learn a lot.
+*/
 
 function add_log($act){
-    $hostname_localhost = "localhost";
-    $database_localhost = "test";
-    $username_localhost = "root";
-    $password_localhost = "12345";
-    $localhost = mysql_pconnect($hostname_localhost, $username_localhost, $password_localhost) or trigger_error(mysql_error(),E_USER_ERROR);
+    require('../Connections/localhost.php');
 
     if (!isset($_SESSION)) {
         session_start();
