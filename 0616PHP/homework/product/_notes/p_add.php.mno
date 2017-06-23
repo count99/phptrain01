@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:a_seq;datatype:int,name:status;datatype:int,name:title;datatype:blob" />
+</info>

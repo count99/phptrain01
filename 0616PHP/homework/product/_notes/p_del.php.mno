@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<info>
+	<infoitem key="UD_Recordset1" value="name:a_seq;datatype:int,name:a_title;datatype:blob,name:a_story;datatype:blob,name:a_price;datatype:int,name:a_pic;datatype:blob,name:a_firm;datatype:blob,name:a_time;datatype:datetime,name:a_builder;datatype:blob" />
+	<infoitem key="UD_Recordset2" value="name:a_seq;datatype:int,name:a_title;datatype:blob,name:a_story;datatype:blob,name:a_price;datatype:int,name:a_pic;datatype:blob,name:a_firm;datatype:blob,name:a_time;datatype:datetime,name:a_builder;datatype:blob" />
+</info>
