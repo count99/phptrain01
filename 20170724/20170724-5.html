@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>練習</title>
+    <script>
+        var aaaa = "2", bbbb;
+        aaaa =aaaa+5;
+        bbbb =0;
+
+        function a01(x, y) {
+            var word = "您購買了產品"+x+"數量"+y;
+            alert(word);
+            return;
+        }
+
+        function a02() {
+            document.getElementById("b01").innerHTML=bbbb;
+        }
+
+    </script>
+</head>
+<body>
+<div id="b01"></div><br />
+<button type="button" onclick="a01(1,0)">按鈕</button><br />
+<button type="button" onclick="a01(2,0)">按鈕</button><br />
+<button type="button" onclick="a01(3,5)">按鈕</button><br />
+<a href="Javascript:a02()">超連接呼叫</a>
+</body>
+</html>
