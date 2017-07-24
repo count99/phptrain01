@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <title>learning</title>
+    <style type="text/css">
+        a:link{
+            color:#FF0;
+        }
+        a:visited{
+            color:#0f0;
+        }
+        a:active{
+            color:#0ff;
+        }
+        #a01{
+            background-color: #9cf;
+            background:url("../../Pictures/googlelogo_color_120x44dp.png");
+            height: 100px;
+            width: 100px;
+            position: absolute;
+            left: 50%;
+            margin: 0 0 0 -50px;
+            /* 會變化*/
+            transition:5s ease;
+            color: #f60;
+            background-size: 100px 100px;
+            transform: rotate(45deg);
+
+        }
+        #a01:hover{
+            background-color:#000;
+            height: 150px;
+            width: 300px;
+            position: absolute;
+            left: 50%;
+            margin: 0 0 0 -50px;
+            color: #ccc;
+            font-size: 32px ;
+            transform:translate(100px, 0);
+        }
+        @keyframes a01 {
+            0% {top}
+        }
+    </style>
+</head>
+<body>
+<a href="20170719.html" class="aaa">超連結</a>
+<div id="a01">文字</div>
+</body>
+</html>

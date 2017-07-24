@@ -1,0 +1,69 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>滑動選單</title>
+	<style type="text/css">
+		nav ul{
+			margin:0;/*外距*/
+			padding: 0;/*內距*/
+		}
+		nav ul li {
+      list-style-type:none;/*拿掉列表的符號*/
+			float: left;
+			width: 120px;
+			height: 40px;
+			background-color: #333;
+			text-align: center;/*置中*/
+			line-height: 40px;/*文字部分的高*/
+		}
+		nav ul li a {
+			display: block;
+			color: #aaa;
+      text-decoration:none;/*無底線*/
+		}
+		nav ul li a:hover {
+			background-color: #D91E43;
+			color:#fff;
+		}
+    nav ul li ul{
+      position:absolute;
+      display:none;/*設定為不存在*/
+    }
+    nav ul li:hover ul{
+      display:block;/*設定為方塊*/
+    }
+    nav ul li ul li{
+			background-color: #7dffff;
+      float:left;
+    }
+    nav ul li ul li a:hover{
+      background-color: #7dabff;
+      color :#bbb;
+    }
+	</style>
+</head>
+<body>
+	<nav>
+		<ul>
+			<li><a href="">MENU</a></li>
+			<li><a href="">MENU</a>
+		    <ul>
+          <li><a href="">002-1</a></li>
+          <li><a href="">002-2</a></li>
+          <li><a href="">002-3</a></li>
+    		</ul>
+      </li>
+			<li><a href="">MENU</a>
+		    <ul>
+          <li><a href="">003-1</a></li>
+          <li><a href="">003-2</a></li>
+          <li><a href="">003-3</a></li>
+    		</ul>
+      </li>
+			<li><a href="">MENU</a></li>
+		</ul>
+	</nav>
+
+</body>
+</html>

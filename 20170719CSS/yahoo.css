@@ -1,0 +1,30 @@
+#one{
+    position: fixed;
+    left:calc(50% - 950px);
+}
+.big_mid{
+    display: block;
+}
+
+#id4{
+    float: left;
+}
+
+#id7{
+    float: right;
+}
+
+.mid{
+    display: inline-block;
+    clear: both;
+}
+
+#ff, .footer{
+    display: inline-block;
+    clear: both;
+}
+
+
+
+
+
